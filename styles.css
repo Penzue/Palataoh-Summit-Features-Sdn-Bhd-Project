@@ -1,0 +1,966 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a; /* Dark background color */
+  color: #ffffff; /* White text */
+}
+
+/* Header styles */
+.header {
+  background-color: #333333; /* Dark grey header background */
+  padding: 10px 0;
+  width: 100%;
+  position: fixed; /* Fixed positioning */
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px; /* Adjust logo height as needed */
+}
+
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  position: flex; /* Fixed positioning */
+}
+
+
+.nav ul li {
+  margin-right: 20px;
+}
+
+.nav ul li a {
+  color: #ffffff; /* White text for navigation links */
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav ul li a:hover {
+  color: #ffcc00; /* Yellow hover color */
+}
+
+
+.cta .button {
+  background-color: #ffcc00; /* Yellow button background */
+  color: #333333; /* Dark text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta .button:hover {
+  background-color: #e6b800; /* Darker yellow hover color */
+}
+
+
+
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for navigation */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+/* Dropdown styling */
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* White text */
+}
+
+/* Header styles */
+.header {
+    background-color: #333333; /* Dark grey header background */
+    padding: 10px 0;
+    width: 100%;
+    position: fixed; /* Fixed positioning */
+}
+
+.header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust logo height as needed */
+}
+
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    position: flex; /* Fixed positioning */
+}
+
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    color: #ffffff; /* White text for navigation links */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav ul li a:hover {
+    color: #ffcc00; /* Yellow hover color */
+}
+  
+
+.cta .button {
+    background-color: #ffcc00; /* Yellow button background */
+    color: #333333; /* Dark text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta .button:hover {
+    background-color: #e6b800; /* Darker yellow hover color */
+}
+
+
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for navigation */
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: #111;
+  }
+  
+  /* Dropdown styling */
+  .dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+ 
+
+
+  /* CSS for dark theme */
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.contact-info {
+    max-width: 400px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    max-width: 400px;
+}
+
+.contact-form h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* White text */
+}
+
+/* Header styles */
+.header {
+    background-color: #333333; /* Dark grey header background */
+    padding: 10px 0;
+    width: 100%;
+    position: fixed; /* Fixed positioning */
+}
+
+.header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust logo height as needed */
+}
+
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    position: flex; /* Fixed positioning */
+}
+
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    color: #ffffff; /* White text for navigation links */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav ul li a:hover {
+    color: #ffcc00; /* Yellow hover color */
+}
+  
+
+.cta .button {
+    background-color: #ffcc00; /* Yellow button background */
+    color: #333333; /* Dark text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta .button:hover {
+    background-color: #e6b800; /* Darker yellow hover color */
+}
+
+
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for navigation */
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: #111;
+  }
+  
+  /* Dropdown styling */
+  .dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  /* CSS for dark theme */
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.contact-info {
+    max-width: 400px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    max-width: 400px;
+}
+
+.contact-form h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.vision-mission-strategy {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.vms-card {
+    background-color: #e3f2fd;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vms-card h2 {
+    background-color: #ffcc00;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    margin: -20px -20px 10px -20px;
+    text-align: center;
+}
+
+.vms-card p, .vms-card ul {
+    color: #555;
+    line-height: 1.6;
+    text-align: left;
+    margin: 0;
+}
+
+.vms-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vms-card li {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .vision-mission-strategy {
+        width: 95%;
+    }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.contributions {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contributions h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.underline {
+    width: 50px;
+    height: 2px;
+    background-color: #ff0000;
+    margin: 10px auto;
+}
+
+.contribution-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #e3f2fd;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card h2 {
+    background-color: #ffcc00;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    margin: -20px -20px 10px -20px;
+    text-align: center;
+}
+
+.card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* White text */
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #333333; /* Dark grey header background */
+    padding: 10px 0;
+    width: 100%;
+    position: fixed; /* Fixed positioning */
+  }
+  
+  .header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px; /* Adjust logo height as needed */
+  }
+  
+  
+  .nav ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    position: flex; /* Fixed positioning */
+  }
+  
+  
+  .nav ul li {
+    margin-right: 20px;
+  }
+  
+  .nav ul li a {
+    color: #ffffff; /* White text for navigation links */
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav ul li a:hover {
+    color: #ffcc00; /* Yellow hover color */
+  }
+  
+  nav li:hover {
+    transition: 0.3s;
+    color: #ffcc00;
+    background-color: gray;
+    padding: 20px;
+}
+  
+  .cta .button {
+    background-color: #ffcc00; /* Yellow button background */
+    color: #333333; /* Dark text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta .button:hover {
+    background-color: #e6b800; /* Darker yellow hover color */
+  }
+  
+  
+  
+  /* Resetting default margin and padding */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for navigation */
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: #111;
+  }
+  
+  /* Dropdown styling */
+  .dropdown {
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Resetting default margin and padding */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a; /* Dark background color */
+      color: #ffffff; /* White text */
+  }
+  
+  /* Header styles */
+  .header {
+      background-color: #333333; /* Dark grey header background */
+      padding: 10px 0;
+      width: 100%;
+      position: fixed; /* Fixed positioning */
+  }
+  
+  .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .logo img {
+      height: 50px; /* Adjust logo height as needed */
+  }
+  
+  
+  .nav ul {
+      list-style-type: none;
+      display: flex;
+      width: 100%;
+      position: flex; /* Fixed positioning */
+  }
+  
+  
+  .nav ul li {
+      margin-right: 20px;
+  }
+  
+  .nav ul li a {
+      color: #ffffff; /* White text for navigation links */
+      text-decoration: none;
+      font-size: 16px;
+  }
+  
+  .nav ul li a:hover {
+      color: #ffcc00; /* Yellow hover color */
+  }
+    
+  
+  .cta .button {
+      background-color: #ffcc00; /* Yellow button background */
+      color: #333333; /* Dark text color */
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+  }
+  
+  .cta .button:hover {
+      background-color: #e6b800; /* Darker yellow hover color */
+  }/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for navigation */
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: #111;
+  }
+  
+  /* Dropdown styling */
+  .dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  
